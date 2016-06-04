@@ -1,4 +1,13 @@
+
+
+
 /*
+
+
+BONUS:
+1. Add a 'delete' button for each individual todo list item
+2. Change the todo content to a label that will trigger the item's checkbox
+  - Hint: you'll have to give each todo item's checkbox a unique id
 
 TO DO LIST
 
@@ -15,13 +24,17 @@ Hint: <li><div class=listBox><label><input type="checkbox" name="todo-check" id=
 4. Create a count and show the number of "to do" items on 
    the page.
 
-
-BONUS:
-1. Add a 'delete' button for each individual todo list item
-2. Change the todo content to a label that will trigger the item's checkbox
-  - Hint: you'll have to give each todo item's checkbox a unique id
-
 */
+
+var toDoList = [];
+var itemsToDo = 0;
+var itemsTotal = 0;
+
+
+
+
+
+
 
 //Create a function to count the number of to do items.
 
